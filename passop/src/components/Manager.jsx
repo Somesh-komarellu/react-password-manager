@@ -5,7 +5,7 @@ const Manager = () => {
   const showpassword=()=>{
     alert("show the password")
     if( ref.current.src.includes("icons/eyecross.png")){
-      ref.current.src="icons/eye.png"
+      ref.current.src="icons/eye.png "
 
     }
     else{
